@@ -1,31 +1,94 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 60%;
-    max-width: 1080%;
-    margin: 0 auto;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  max-width: 1080px;
+  min-width: 700px;
+  margin: 0 auto;
 }
 /* ----------------------------------------------------- */
 
 /* ----------------------HEADER----------------------------- */
+.h-container {
+  background-image: url("/img/bgk-header.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+}
 .nav-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-div {
+  display: flex;
 }
 
+.logo {
+  margin-top: 0.5em;
+  margin-left: 8em;
+  width: 20px;
+}
+.logo-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.5rem;
+  margin: 2.1em 0.7em;
+}
+div a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-right: 8em;
+}
+nav li {
+  margin: 0 0.5em;
+}
+nav a {
+  text-decoration: none;
+  color: #00e0d0;
+  font-weight: 400;
+  font-size: 0.4rem;
+  padding: 0.25em 0;
+}
+nav a:hover,
+nav a:focus {
+  color: #ffffff;
+}
+.h1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1-container h1 {
+  color: #ffffff;
+  font-size: 0.75rem;
+  margin-top: 8em;
+  margin-bottom: 2.5em;
+}
+.h1-container p {
+  color: #ffffff;
+  font-size: 0.5rem;
+  margin-bottom: 5em;
+  width: 450px;
+  text-align: center;
+}
+.h-btn {
+  background-color: rgba(255, 255, 255, 0.9);
+}
 
 /* -----------------------------MAIN------------------------ */
-
-
-
-
-
-
-
-
-
-
 
 /* ---------------------------------FOOTER------------------------ */
