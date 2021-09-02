@@ -96,6 +96,7 @@ nav a:focus {
 /*-------------------section5------------------------------*/
 .column5 {
   display: flex;
+  padding: 0 15% 0 15%;
 }
 .column5b {    
   width: 120%;   
@@ -135,3 +136,80 @@ nav a:focus {
 }
 
 /* ---------------------------------FOOTER------------------------ */
+
+.footer {
+ font-size: 13px;
+justify-content: center;
+background-image: url(img/bgk-footer.png) ;
+color: #ffffff;
+height: 350px;
+ justify-content: space-around;
+ padding: 5% 15% 0 15%;
+ font-family: "Ubuntu", sans-serif;
+}
+#footer {
+  display: flex;
+}
+.footer1 {
+  justify-content: space-between;
+  display: flex;
+  
+}
+   #foot2c {
+  display: flex;
+  justify-content: space-around;
+}
+.footer2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+p .footer1a {
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+.footer1a, .footer2b {
+  display: flex; 
+}
+.footer2c {
+ 
+  display: inline-block;
+ justify-content: center;
+}
+
+.fin1 input {
+  background-color: transparent;
+  font-size: 14px; 
+ border-color: #ffffff;;
+  height: 30px;
+
+}
+#tajam {
+  font-size: 20px;
+text-align: end;
+color: #368181;
+}
+.fin2 { 
+background-color: rgba(200, 200, 200, 0.9);
+
+margin: 15px 15px 0px 15px ;
+flex-grow: 3;
+}
+.foot23 {
+ display: flex;
+ justify-content: end;
+ padding-top: 10%;
+ flex-shrink: 20;
+}
+.footer1c {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+#footer1c {
+  text-align: start;
+}
