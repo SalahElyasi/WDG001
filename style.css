@@ -13,13 +13,15 @@ body {
 
 /* ----------------------HEADER----------------------------- */
 .h-container {
-  background-image: url("/img/bgk-header.png");
-  height: 500px;
+  background-image: url("img/bgk-header.png");
   background-repeat: no-repeat;
-  background-size: contain, cover;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
 }
 .nav-container {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
 }
 .navbar {
@@ -29,6 +31,7 @@ body {
 }
 .logo-div {
   display: flex;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -45,7 +48,6 @@ body {
 div a {
   text-decoration: none;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
@@ -80,15 +82,158 @@ nav a:focus {
 }
 .h1-container p {
   color: #ffffff;
-  font-size: 0.5rem;
+  font-size: 0.65rem;
   margin-bottom: 5em;
   width: 450px;
   text-align: center;
+  line-height: 2;
 }
 .h-btn {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* -----------------------------MAIN------------------------ */
+/* --------------section1------------------- */
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.div-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 190px;
+  width: 550px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div-1-img {
+  display: flex;
+}
+.div-1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-left: 30px;
+}
+.div-1 img {
+  width: 150px;
+  padding-right: 30px;
+}
+.div-1 p {
+  font-size: 0.55rem;
+  width: 90%;
+}
+.div1-h2 {
+  text-align: left;
+}
+.h-btn {
+  width: 90px;
+  height: 30px;
+  color: #00e0d0;
+  font-size: 10px;
+  border: 1px solid #00e0d0;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+/* --------------section2------------------- */
+
+.div-2 {
+  background-image: url("img/bgk-middle.png");
+  height: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-2 h3 {
+  color: #ffffff;
+  font-size: 0.65rem;
+}
+.play-btn {
+  width: 45px;
+  height: auto;
+}
+.div-3 {
+  display: flex;
+  padding: 100px;
+}
+/* --------------section2------------------- */
+
+.col4 {
+  background-image: url(img/bgk-header.png);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.col4-header {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.col4-header h2 {
+  font-size: 1em;
+}
+.col4-header p {
+  font-size: 0.75rem;
+}
+.col4-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-white {
+  display: flex;
+  flex-direction: row;
+}
+.div-white div {
+  height: 160px;
+  width: 150px;
+  margin-right: 1em;
+  background-color: #ffffff;
+}
+.col4-main-div {
+  display: flex;
+  flex-direction: row;
+}
+.col4-main-div div {
+  height: 55px;
+  width: 150px;
+  margin-right: 1em;
+  border: 1px solid #ffffff;
+}
+.col4-main-inhalt {
+  color: #ffffff;
+}
+.col4-main-inhalt h3 {
+  text-align: center;
+  font-size: 0.75rem;
+}
+.col4-main-inhalt p {
+  text-align: center;
+  font-size: 0.5rem;
+}
+.col4-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em;
+}
+.col4-footer p {
+  color: #ffffff;
+  font-size: 0.75rem;
+}
 
 /* ---------------------------------FOOTER------------------------ */
