@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+border: solid 1px g;
+  
 }
 
 body {
@@ -8,12 +10,14 @@ body {
   max-width: 1080px;
   min-width: 700px;
   margin: 0 auto;
+  
+  
 }
 /* ----------------------------------------------------- */
 
 /* ----------------------HEADER----------------------------- */
 .h-container {
-  background-image: url("/img/bgk-header.png");
+  background-image: url(img/bgk-header.png);
   height: 500px;
   background-repeat: no-repeat;
   background-size: contain, cover;
@@ -93,6 +97,50 @@ nav a:focus {
 
 
 
+
+/*      ----------- section2------------------------ */
+
+
+
+/*      ----------- section3------------------------ */
+
+
+.col3  p, h4, h5 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.col3 {
+  padding-top: 3%;
+}
+.cole3 { 
+  max-height: 450px;
+  width: 780px;
+  padding-top: 5%;
+  padding-bottom: 5%;margin: auto;
+}
+.column3, .columnes3 {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+}
+.columne3 {
+  margin-top: 10%;
+}
+hr {
+  width: 70px;
+}
+
+#col3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+/*-------------------section4------------------------------*/
+
+
+
+
 /*-------------------section5------------------------------*/
 .column5 {
   display: flex;
@@ -135,7 +183,7 @@ nav a:focus {
   margin-left: 160px;
 }
 
-/* ---------------------------------FOOTER------------------------ */
+/* ----------------------------FOOTER------------------------- */
 
 .footer {
  font-size: 13px;
