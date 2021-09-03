@@ -7,24 +7,22 @@ border: solid 1px g;
 body {
   font-family: "Ubuntu", sans-serif;
   width: 100%;
-  max-width: 1080px;
-  min-width: 700px;
+  min-width: 1300px;
   margin: 0 auto;
   
   
 }
-/* ----------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
 
 /* ----------------------HEADER----------------------------- */
 .h-container {
   background-image: url(img/bgk-header.png);
+
+  height: 600px;
+  background-position: center;
   height: 500px;
   background-repeat: no-repeat;
-  background-size: contain, cover;
-}
-.nav-container {
-  display: flex;
-  flex-direction: column;
+  background-size: cover;
 }
 .navbar {
   display: flex;
@@ -36,25 +34,27 @@ body {
 }
 
 .logo {
-  margin-top: 0.5em;
-  margin-left: 8em;
-  width: 20px;
+  margin-top: 1.5em;
+  margin-left: 22em;
+  width: 50px;
 }
 .logo-title {
   color: #ffffff;
   font-weight: 700;
-  font-size: 0.5rem;
-  margin: 2.1em 0.7em;
+  font-size: 1.7rem;
+  margin: 1.6em 0.7em;
 }
 div a {
   text-decoration: none;
 }
-
+.nav {
+  margin-right: 22em;
+  margin-top: 2.3em;
+}
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
-  margin-right: 8em;
 }
 nav li {
   margin: 0 0.5em;
@@ -63,7 +63,7 @@ nav a {
   text-decoration: none;
   color: #00e0d0;
   font-weight: 400;
-  font-size: 0.4rem;
+  font-size: 1rem;
   padding: 0.25em 0;
 }
 nav a:hover,
@@ -78,23 +78,78 @@ nav a:focus {
 }
 .h1-container h1 {
   color: #ffffff;
-  font-size: 0.75rem;
-  margin-top: 8em;
+  font-size: 1.75rem;
+  margin-top: 4em;
   margin-bottom: 2.5em;
 }
 .h1-container p {
   color: #ffffff;
-  font-size: 0.5rem;
-  margin-bottom: 5em;
-  width: 450px;
+  font-size: 1.1rem;
+  margin-bottom: 4em;
+  width: 750px;
   text-align: center;
 }
 .h-btn {
-  background-color: rgba(255, 255, 255, 0.9);
+  width: 130px;
+  height: 40px;
+  color: #00e0d0;
+  font-size: 1rem;
+  background-color: Transparent;
+  border: 1px solid #00e0d0;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 /* -----------------------------MAIN------------------------ */
+/* ---------section 1------------------------ */
+.col1 {
+  display: flex;
+  height: 350px;
+}
+.div-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.div-1 div {
+  width: 40%;
+}
+.div-1-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.div-1 img {
+  width: 200px;
+  margin-right: 3rem;
+}
+.div-1-text {
+  margin-left: 5.5em;
+}
 
+
+/* ---------section 2--------------------------- */
+
+.col2 {
+  background-image: url(img/bgk-middle.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-2 h3 {
+  color: #ffffff;
+}
+/* ---------------------------------FOOTER------------------------ */
+=======
 
 
 
@@ -261,3 +316,4 @@ flex-grow: 3;
 #footer1c {
   text-align: start;
 }
+
