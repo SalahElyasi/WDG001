@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+border: solid 1px g;
+  
 }
 
 body {
@@ -7,14 +9,18 @@ body {
   width: 100%;
   min-width: 1300px;
   margin: 0 auto;
+  
+  
 }
 /* ---------------------------------------------------------------------- */
 
 /* ----------------------HEADER----------------------------- */
 .h-container {
   background-image: url(img/bgk-header.png);
+
   height: 600px;
   background-position: center;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -121,6 +127,7 @@ nav a:focus {
   margin-left: 5.5em;
 }
 
+
 /* ---------section 2--------------------------- */
 
 .col2 {
@@ -142,3 +149,171 @@ nav a:focus {
   color: #ffffff;
 }
 /* ---------------------------------FOOTER------------------------ */
+=======
+
+
+
+/*      ----------- section2------------------------ */
+
+
+
+/*      ----------- section3------------------------ */
+
+
+.col3  p, h4, h5 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.col3 {
+  padding-top: 3%;
+}
+.cole3 { 
+  max-height: 450px;
+  width: 780px;
+  padding-top: 5%;
+  padding-bottom: 5%;margin: auto;
+}
+.column3, .columnes3 {
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+}
+.columne3 {
+  margin-top: 10%;
+}
+hr {
+  width: 70px;
+}
+
+#col3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+/*-------------------section4------------------------------*/
+
+
+
+
+/*-------------------section5------------------------------*/
+.column5 {
+  display: flex;
+  padding: 0 15% 0 15%;
+}
+.column5b {    
+  width: 120%;   
+}
+.column5b img {
+  width: 80% ;
+  height: 80%;
+}
+.column5c {
+  width: 60%;
+}
+.figure1, .figure2, .figure3, .figure4, .figure5 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-right: 30px;
+}
+#b {
+  width: 25% ;
+  height: 30%;  
+}
+.form-inner input, .form-inner textarea {
+  width: 100%;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif;   
+}
+#submit {
+  width: 30%; 
+  height: 5%;
+  color:#00ced1;
+  border-color: #00ced1;
+  background-color: #ffffff;
+  font-size: 13px;
+}
+#a {
+  margin-left: 160px;
+}
+
+/* ----------------------------FOOTER------------------------- */
+
+.footer {
+ font-size: 13px;
+justify-content: center;
+background-image: url(img/bgk-footer.png) ;
+color: #ffffff;
+height: 350px;
+ justify-content: space-around;
+ padding: 5% 15% 0 15%;
+ font-family: "Ubuntu", sans-serif;
+}
+#footer {
+  display: flex;
+}
+.footer1 {
+  justify-content: space-between;
+  display: flex;
+  
+}
+   #foot2c {
+  display: flex;
+  justify-content: space-around;
+}
+.footer2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+p .footer1a {
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+}
+.footer1a, .footer2b {
+  display: flex; 
+}
+.footer2c {
+ 
+  display: inline-block;
+ justify-content: center;
+}
+
+.fin1 input {
+  background-color: transparent;
+  font-size: 14px; 
+ border-color: #ffffff;;
+  height: 30px;
+
+}
+#tajam {
+  font-size: 20px;
+text-align: end;
+color: #368181;
+}
+.fin2 { 
+background-color: rgba(200, 200, 200, 0.9);
+
+margin: 15px 15px 0px 15px ;
+flex-grow: 3;
+}
+.foot23 {
+ display: flex;
+ justify-content: end;
+ padding-top: 10%;
+ flex-shrink: 20;
+}
+.footer1c {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+#footer1c {
+  text-align: start;
+}
+
